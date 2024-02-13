@@ -42,10 +42,14 @@ body {
   font-size: 30px;
 }
 
+.paper.image .specific-image {
+  max-height: 30%; /* Increase the max-height as desired */
+  width: auto; /* Ensure the width adjusts proportionally */
+}
 
 
 img {
-  max-height: 400px;
+  max-height: 300px;
   width: 100%;
   user-select: none;
 }
